@@ -25,6 +25,7 @@ syy = sum([(y[i] - bar_y)**2 for i in range(n)])
 b1 = sxy / sxx
 b0 = bar_y - b1 * bar_x
 
+print("n = {0}".format(n))
 print("\\bar{{x}} = {0:5f}".format(bar_x))
 print("\\bar{{y}} = {0:5f}".format(bar_y))
 
