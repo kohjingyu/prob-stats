@@ -15,7 +15,7 @@ sxy = sum([(x[i] - bar_x) * (y[i] - bar_y) for i in range(n)])
 sxx = sum([(x[i] - bar_x)**2 for i in range(n)]) 
 syy = sum([(y[i] - bar_y)**2 for i in range(n)]) 
 
-print("S_xy = {0:5f}, S_xx = {0:5f}, S_yy = {0:5f}".format(sxy ,sxx, syy))
+print("S_xy = {0:5f}, S_xx = {1:5f}, S_yy = {2:5f}".format(sxy ,sxx, syy))
 
 # Point estimates for \beta_0 and \beta_1
 b1 = sxy / sxx
